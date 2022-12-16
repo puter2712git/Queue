@@ -67,7 +67,7 @@ void dump_queue(struct queue *_head)
 	int index = 1;
 
 	printf("==============================\n");
-  printf("Print the elements of the queue.\n");
+	printf("Print the elements of the queue.\n");
   
 	while (temp) {
 		printf("[%2d] : %d\n", index, temp->data);
@@ -76,7 +76,7 @@ void dump_queue(struct queue *_head)
 		index++;
 	}
 
-  printf("==============================\n");
+	printf("==============================\n");
 
   return;
 }
